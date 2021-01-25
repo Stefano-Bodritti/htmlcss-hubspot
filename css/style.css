@@ -166,3 +166,26 @@ small {
   bottom: 0;
 }
 /* fine jumbotron */
+/* sezione powerful */
+.centered {
+  margin: auto;
+  padding: 40px 0;
+  width: 55%;
+  text-align: center;
+}
+
+.centered img {
+  height: 220px;
+}
+
+.centered h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.centered p {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+/* fine sezione powerful */
