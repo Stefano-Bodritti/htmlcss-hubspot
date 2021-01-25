@@ -8,3 +8,80 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.btn.orange {
+  background-color: #fe775a;
+  color: white;
+}
+
+.btn.orange-border {
+  background-color: white;
+  color: #fe775a;
+  border: 1px solid #fe775a;
+}
+
+/* prima riga nav */
+.bg-1 {
+  background-color: #f4f9fd;
+}
+
+.nav-top-left, .nav-top-right {
+  display: inline-block;
+  width: calc((100% - 5px) / 2);
+  padding: 25px 0;
+  font-size: 14px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-top-left a {
+  margin: 0 20px;
+}
+
+.nav-top-left li:first-child a {
+  margin-left: 0;
+}
+
+#border-right {
+  border-right: 1px solid black;
+}
+
+.nav-top-right {
+  text-align: right;
+}
+
+.nav-top-right a {
+  margin-left: 20px;
+}
+
+#blue-icon {
+  color: #00a4bd;
+}
+/* fine prima riga nav */
