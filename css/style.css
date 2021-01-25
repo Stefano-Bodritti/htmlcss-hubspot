@@ -15,11 +15,30 @@ body {
   clear: both;
 }
 
+/* mix */
+header {
+  font-size: 14px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
   width: 70%;
   margin: auto;
 }
 
+/* pulsanti */
 .btn {
   padding: 8px 12px;
   border-radius: 5px;
@@ -45,20 +64,6 @@ body {
   display: inline-block;
   width: calc((100% - 5px) / 2);
   padding: 25px 0;
-  font-size: 14px;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav li a {
-  text-decoration: none;
-  color: black;
 }
 
 .nav-top-left a {
@@ -85,3 +90,33 @@ nav li a {
   color: #00a4bd;
 }
 /* fine prima riga nav */
+/* seconda riga nav */
+.nav-bottom {
+  height: 70px;
+  line-height: 70px;
+}
+
+.nav-bottom-left {
+  float: left;
+  height: 100%;
+}
+
+.nav-bottom-left img {
+  vertical-align: middle;
+}
+
+.nav-bottom-right {
+  float: right;
+}
+
+.nav-bottom a {
+  margin-left: 20px;
+}
+
+.nav-bottom i {
+  margin-left: 15px;
+}
+/* fine seconda riga nav */
+/* jumbotron */
+
+/* fine jumbotron */
