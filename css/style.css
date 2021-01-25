@@ -55,6 +55,11 @@ nav li a {
   border: 1px solid #fe775a;
 }
 
+.btn.big {
+  text-decoration: none;
+  padding: 20px 28px;
+}
+
 /* prima riga nav */
 .bg-1 {
   background-color: #f4f9fd;
@@ -118,5 +123,46 @@ nav li a {
 }
 /* fine seconda riga nav */
 /* jumbotron */
+.bg-2 {
+  background-color: #fff4ef;
+  position: relative;
+}
 
+img.banner {
+  width: 85%;
+  margin-left: 15%;
+}
+
+.jumbotron-text {
+  position: absolute;
+  left: 15%;
+  top: 70px;
+  width: 37%;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+.jumbotron-text p {
+  font-size: 14px;
+  line-height: 170%;
+  margin: 20px 0 50px;
+}
+
+small {
+  display: block;
+  margin-top: 50px;
+}
+
+.color-row {
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+  background-color: #afebe4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 /* fine jumbotron */
