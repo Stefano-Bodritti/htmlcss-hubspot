@@ -16,26 +16,35 @@ body {
 }
 
 /* mix */
-header {
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+p, li {
   font-size: 14px;
 }
 
-nav ul {
+p {
+  line-height: 170%;
+}
+
+.horizontal-list ul {
   list-style: none;
 }
 
-nav li {
+.horizontal-list li {
   display: inline-block;
 }
 
-nav li a {
+.horizontal-list a {
   text-decoration: none;
   color: black;
 }
 
-.container {
-  width: 70%;
-  margin: auto;
+.col, .col-2 {
+  float: left;
+  background-color: white;
 }
 
 /* pulsanti */
@@ -145,8 +154,6 @@ h1 {
 }
 
 .jumbotron-text p {
-  font-size: 14px;
-  line-height: 170%;
   margin: 20px 0 50px;
 }
 
@@ -183,9 +190,83 @@ small {
   margin-bottom: 25px;
 }
 
-.centered p {
-  font-size: 14px;
-  line-height: 170%;
+.row {
+  padding-bottom: 40px;
 }
 
+.col.left {
+  width: calc(100% / 3);
+  padding: 70px;
+  text-align: center;
+}
+
+.col.right {
+  width: calc(100% / 3 * 2);
+  padding: 70px 50px 50px 0;
+}
+
+.col.left img {
+ height: 100px;
+ margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.popolar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.popolar hr {
+  display: inline-block;
+  width: 65%;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+
+.orange-check i {
+  color: #fe775a;
+  margin-right: 15px;
+}
+
+.orange-check li {
+  margin-right: 20px;
+}
+
+.orange-check ul {
+  list-style: none;
+}
+
+.col-2 {
+  width: calc((100% - 100px) / 3);
+  padding: 15px;
+}
+
+.col-2.middle {
+  margin: 0 50px;
+}
+
+.col-2 img {
+  height: 100px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.col-2 h3, .col-2 p, .col-2 .popolar {
+  text-align: center;
+}
+
+.col-2 hr {
+  margin: 40px 0;
+}
+
+.col-2 .center-btn {
+  margin: 70px 0 30px;
+  text-align: center;
+}
 /* fine sezione powerful */
