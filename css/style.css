@@ -44,6 +44,9 @@ p {
 
 .col, .col-2 {
   float: left;
+}
+
+.row-1, .col-2 {
   background-color: white;
 }
 
@@ -185,13 +188,13 @@ small {
   height: 220px;
 }
 
-.centered h2 {
+h2 {
   font-size: 30px;
   margin-bottom: 25px;
 }
 
-.row {
-  padding-bottom: 40px;
+.row-1 {
+  margin-bottom: 40px;
 }
 
 .col.left {
@@ -202,7 +205,7 @@ small {
 
 .col.right {
   width: calc(100% / 3 * 2);
-  padding: 70px 50px 50px 0;
+  padding: 70px 50px 53px 0;
 }
 
 .col.left img {
@@ -269,4 +272,23 @@ h3 {
   margin: 70px 0 30px;
   text-align: center;
 }
+
+.row-1, .col-2 {
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.2);
+  border-radius: 5px;
+}
+
+.row-2 {
+  padding-bottom: 40px;
+}
 /* fine sezione powerful */
+/* sezione learn */
+.bg-3 {
+  background: linear-gradient(45deg,#00a4bd,#00bda5);
+  height: 500px;
+  padding: 35px 0;
+  text-align: center;
+  color: white;
+}
+
+/* fine sezione learn */
