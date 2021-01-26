@@ -274,7 +274,7 @@ h3 {
 }
 
 .row-1, .col-2 {
-  box-shadow: 0 0 5px rgba(50, 73, 91, 0.2);
+  box-shadow: 0 0 11px #eaf0f6;
   border-radius: 5px;
 }
 
@@ -285,10 +285,47 @@ h3 {
 /* sezione learn */
 .bg-3 {
   background: linear-gradient(45deg,#00a4bd,#00bda5);
-  height: 500px;
-  padding: 35px 0;
+  padding: 35px 0 100px 0;
   text-align: center;
   color: white;
 }
 
+.row-3 {
+  margin-top: 40px;
+}
+
+.box {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+
+.row-3 .box {
+  border-bottom: 1px solid white;
+}
+
+.row-3 .box:not(:last-child), .row-4 .box:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.row-4 img {
+  height: 33px;
+}
+
+.box .highlight {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 15px 0;
+  vertical-align: middle;
+}
+
+.highlight .plus {
+  font-weight: 400;
+  font-size: 25px;
+  vertical-align: 5px;
+}
+
+.small {
+  font-size: 12px;
+}
 /* fine sezione learn */
