@@ -29,7 +29,7 @@ p {
   line-height: 170%;
 }
 
-.horizontal-list ul {
+ul {
   list-style: none;
 }
 
@@ -37,17 +37,22 @@ p {
   display: inline-block;
 }
 
-.horizontal-list a {
+a {
   text-decoration: none;
   color: black;
 }
 
-.col, .col-2 {
+.nav-bottom-left, .col, .col-2 {
   float: left;
 }
 
 .row-1, .col-2 {
   background-color: white;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 
 /* pulsanti */
@@ -113,11 +118,6 @@ p {
   line-height: 70px;
 }
 
-.nav-bottom-left {
-  float: left;
-  height: 100%;
-}
-
 .nav-bottom-left img {
   vertical-align: middle;
 }
@@ -165,7 +165,7 @@ small {
   margin-top: 50px;
 }
 
-.color-row {
+.color-bar {
   height: 13%;
   width: 100%;
   border-top: 3px solid #33475b;
@@ -186,11 +186,6 @@ small {
 
 .centered img {
   height: 220px;
-}
-
-h2 {
-  font-size: 30px;
-  margin-bottom: 25px;
 }
 
 .row-1 {
@@ -241,10 +236,6 @@ h3 {
   margin-right: 20px;
 }
 
-.orange-check ul {
-  list-style: none;
-}
-
 .col-2 {
   width: calc((100% - 100px) / 3);
   padding: 15px;
@@ -260,7 +251,7 @@ h3 {
   margin: 0 auto 20px;
 }
 
-.col-2 h3, .col-2 p, .col-2 .popolar {
+.col-2 h3, .col-2 p, .col-2 .popolar, .center-btn {
   text-align: center;
 }
 
@@ -270,7 +261,6 @@ h3 {
 
 .col-2 .center-btn {
   margin: 70px 0 30px;
-  text-align: center;
 }
 
 .row-1, .col-2 {
@@ -320,9 +310,9 @@ h3 {
 }
 
 .highlight .plus {
-  font-weight: 400;
   font-size: 25px;
-  vertical-align: 5px;
+  font-weight: 400;
+  vertical-align: middle;
 }
 
 .small {
@@ -337,7 +327,7 @@ h3 {
 }
 
 .container-2 h2 {
-  font-size: 45px;
+  font-size: 40px;
   margin-top: 50px;
   width: 20%;
 }
@@ -362,6 +352,24 @@ h3 {
 /* fine sezione customers */
 /* sezione start */
 .col-3 {
-  width: 50%;
+  display: inline-block;
+  margin: 40px 0;
+}
+
+.col-3.left {
+  width: 45%;
+}
+
+.col-3.right {
+  text-align: right;
+  width: calc(55% - 5px);
+}
+
+.col-3 p {
+  margin-bottom: 40px;
+}
+
+.col-3 img {
+  height: 300px;
 }
 /* fine sezione start */
