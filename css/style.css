@@ -166,7 +166,7 @@ small {
 }
 
 .color-row {
-  height: 80px;
+  height: 13%;
   width: 100%;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
@@ -329,3 +329,39 @@ h3 {
   font-size: 12px;
 }
 /* fine sezione learn */
+/* sezione customers */
+.container-2 {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+
+.container-2 h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  width: 20%;
+}
+
+.container-2 p {
+  width: 20%;
+  padding-bottom: 30px;
+}
+
+.cont-img {
+  width: 55%;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.cont-img img {
+  width: calc(25% - 4px);
+  vertical-align: middle;
+  padding: 5px 8px;
+}
+/* fine sezione customers */
+/* sezione start */
+.col-3 {
+  width: 50%;
+}
+/* fine sezione start */
