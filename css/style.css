@@ -377,7 +377,6 @@ h3 {
 footer {
   background-color: #32495b;
   padding: 40px 0;
-  height: 600px;
 }
 
 footer li {
@@ -412,5 +411,34 @@ footer a {
 }
 
 footer ul.horizontal-list li {
-  margin-right: 30px;
+  margin-right: 28px;
 }
+
+footer ul.horizontal-list li:last-child {
+  margin-right: 0;
+}
+
+footer ul.aligned {
+  text-align: center;
+}
+
+footer hr {
+  border-color: #dadee0;
+  margin-bottom: 30px;
+}
+
+footer .relative {
+  position: relative;
+}
+
+footer .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#copyright {
+  color: #cbd6e2;
+  font-weight: 600;
+}
+/* fine piè di pagina */
